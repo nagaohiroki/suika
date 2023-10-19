@@ -1,0 +1,90 @@
+{
+    "configs": [
+        {
+            "buildMachineOS": "WindowsEditor",
+            "types": {
+                "pairs": [
+                    {
+                        "name": "Release",
+                        "enable": true
+                    },
+                    {
+                        "name": "Debug",
+                        "enable": false
+                    }
+                ]
+            },
+            "platforms": {
+                "pairs": [
+                    {
+                        "name": "StandaloneWindows64",
+                        "enable": true
+                    },
+                    {
+                        "name": "StandaloneOSX",
+                        "enable": false
+                    },
+                    {
+                        "name": "StandaloneLinux64",
+                        "enable": false
+                    },
+                    {
+                        "name": "iOS",
+                        "enable": false
+                    },
+                    {
+                        "name": "Android",
+                        "enable": false
+                    },
+                    {
+                        "name": "WebGL",
+                        "enable": true
+                    }
+                ]
+            }
+        },
+        {
+            "buildMachineOS": "OSXEditor",
+            "types": {
+                "pairs": [
+                    {
+                        "name": "Release",
+                        "enable": false
+                    },
+                    {
+                        "name": "Debug",
+                        "enable": false
+                    }
+                ]
+            },
+            "platforms": {
+                "pairs": [
+                    {
+                        "name": "StandaloneWindows64",
+                        "enable": false
+                    },
+                    {
+                        "name": "StandaloneOSX",
+                        "enable": false
+                    },
+                    {
+                        "name": "StandaloneLinux64",
+                        "enable": false
+                    },
+                    {
+                        "name": "iOS",
+                        "enable": false
+                    },
+                    {
+                        "name": "Android",
+                        "enable": false
+                    },
+                    {
+                        "name": "WebGL",
+                        "enable": false
+                    }
+                ]
+            }
+        }
+    ]
+}
